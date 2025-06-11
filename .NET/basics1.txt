@@ -1,0 +1,71 @@
+🧠 What You’ll Learn:
+What is .NET?
+
+Architecture of .NET Framework
+
+Common Language Runtime (CLR)
+
+.NET Languages (C#, VB.NET)
+
+Just-In-Time (JIT) Compilation
+
+Managed Code vs Unmanaged Code
+
+🔹 Notes for Today
+1. What is .NET Framework?
+A software framework developed by Microsoft.
+
+Used to build and run Windows applications.
+
+Supports multiple languages (C#, VB.NET, F#).
+
+2. Key Components:
+| Component                     | Description                                               |
+| ----------------------------- | --------------------------------------------------------- |
+| CLR (Common Language Runtime) | Executes .NET programs, handles memory, exceptions        |
+| BCL (Base Class Library)      | Provides core functionality (file I/O, collections, etc.) |
+| FCL (Framework Class Library) | Set of reusable classes for development                   |
+| ASP.NET                       | Framework to build web apps                               |
+| ADO.NET                       | Used for database connectivity                            |
+
+3. Common Language Runtime (CLR)
+Manages memory, type safety, and garbage collection.
+
+Converts Intermediate Language (IL) → Native Code via JIT Compiler.
+
+4. Managed vs Unmanaged Code
+Managed Code: Runs under the control of CLR (e.g., C#).
+
+Unmanaged Code: Runs outside the CLR (e.g., C/C++ compiled code).
+
+📘 Sample Previous Year UPSC Questions
+
+Which of the following is NOT a feature of the .NET Framework?
+A. Language Interoperability
+B. Automatic Memory Management
+C. Platform Independence
+D. Type Safety
+Answer: C (It is Windows-specific, not fully platform-independent)
+
+CLR in .NET Framework is responsible for:
+A. Compiling code to machine language
+B. Interpreting HTML pages
+C. Creating databases
+D. Writing stored procedures
+Answer: A
+
+Which of these is a part of the .NET Framework?
+A. JVM
+B. CLR
+C. SDK
+D. Visual Basic 6
+Answer: B
+
+🎯 Quick Revision
+Term	Description
+CLR	Execution environment for .NET
+BCL	Basic classes like collections, IO, etc.
+IL	Intermediate Language
+JIT	Converts IL to native machine code
+CTS	Common Type System, ensures type safety
+CLS	Common Language Specification, ensures interoperability
