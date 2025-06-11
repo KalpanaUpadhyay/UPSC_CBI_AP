@@ -33,6 +33,8 @@ Manages memory, type safety, and garbage collection.
 
 Converts Intermediate Language (IL) → Native Code via JIT Compiler.
 
+Net smallest deployable unit : Assembly
+
 4. Managed vs Unmanaged Code
 Managed Code: Runs under the control of CLR (e.g., C#).
 
