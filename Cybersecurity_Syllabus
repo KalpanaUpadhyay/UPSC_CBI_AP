@@ -100,3 +100,71 @@ Which one is considered an entry point for cyber attacks?
 
 Which of the following refers to the combination of a threat exploiting a vulnerability?
 ➤ Answer: Risk
+
+
+**Encryption & Cryptography**
+
+🔐 What is Cryptography?
+Cryptography is the practice of securing data by converting it into an unreadable format (encryption) that can only be made readable again (decryption) with a secret key.
+
+🧱 Types of Cryptography
+Type	Description	Examples
+Symmetric Encryption	Same key is used for encryption and decryption. Fast, but less secure if key is shared.	AES, DES
+Asymmetric Encryption	Uses a public key to encrypt and a private key to decrypt. More secure, but slower.	RSA, ECC
+Hashing	Converts data into a fixed-length string. One-way only (no decryption). Used for password storage, integrity.	SHA, MD5
+
+🔐 Symmetric Encryption
+Key Point: One shared key for both sender & receiver.
+
+Example:
+If Kalpana sends a message to a server, both use the same secret key to encrypt and decrypt it.
+
+Common Algorithms: AES, DES
+
+🔸 AES (Advanced Encryption Standard) is widely used and very secure.
+
+🔐 Asymmetric Encryption
+Key Point: Uses two keys — public and private.
+
+Public Key: Known to everyone
+
+Private Key: Kept secret by the owner
+
+Example:
+You encrypt a message using someone's public key — only they can decrypt it using their private key.
+
+🔸 RSA is the most widely used asymmetric algorithm.
+
+🔐 Hashing
+Key Point: Irreversible function; mainly for verifying data integrity.
+
+Converts input into a fixed-size hash.
+
+Used for storing passwords, verifying file integrity.
+
+Popular Hash Functions: MD5 (outdated), SHA-1, SHA-256
+
+🔁 Summary Table
+Feature	Symmetric	Asymmetric	Hashing
+Key Type	One key	Public & Private	No key
+Speed	Fast	Slow	Fast
+Use Case	Bulk data encryption	Secure key exchange	Data integrity (e.g., passwords)
+Reversible	Yes	Yes	No
+
+🧠 Sample Questions
+Which of the following is an asymmetric encryption algorithm?
+a) DES
+b) AES
+c) RSA
+d) SHA-1
+➤ Answer: c) RSA
+
+Hashing is primarily used for:
+a) Encrypting emails
+b) Key exchange
+c) Data integrity verification
+d) Compressing files
+➤ Answer: c) Data integrity verification
+
+What’s the key difference between symmetric and asymmetric encryption?
+➤ Symmetric uses one shared key, asymmetric uses a key pair (public + private).
