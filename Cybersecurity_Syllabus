@@ -931,3 +931,102 @@ What does PCI-DSS focus on?
 
 Section 66D of the IT Act deals with?
 ➤ Cheating by impersonation (e.g., phishing)
+
+
+**Access Control Models**
+
+🔐 What is Access Control?
+Access Control determines who can access what resources in a system and under what conditions.
+
+It ensures Confidentiality, Integrity, and Availability (CIA) by restricting unauthorized access.
+
+🧱 Types of Access Control Models
+Here are the four main models, each with its own logic and application:
+
+1. Discretionary Access Control (DAC)
+Access is controlled by the data owner.
+
+🧠 Example:
+You (file owner) decide who else can read, write, or execute your file.
+
+📌 Key Features:
+
+Uses Access Control Lists (ACLs)
+
+Flexible but less secure
+
+Found in Windows, UNIX (chmod)
+
+✅ MCQ Hint: “Access based on user identity and ownership” → DAC
+
+2. Mandatory Access Control (MAC)
+Access is controlled by the system, not users.
+
+🧠 Example:
+Used in military systems where files have labels like Confidential, Secret, Top Secret.
+
+📌 Key Features:
+
+Rigid and policy-driven
+
+Based on security labels/classifications
+
+Users can’t change permissions
+
+✅ MCQ Hint: “Uses labels like Top Secret” → MAC
+
+3. Role-Based Access Control (RBAC)
+Access is based on the user’s role in the organization.
+
+🧠 Example:
+A “Manager” can access reports, but a “Clerk” cannot.
+
+📌 Key Features:
+
+Roles are assigned permissions
+
+Users get access by assuming roles
+
+Used in corporate and enterprise environments
+
+✅ MCQ Hint: “Access based on job position” → RBAC
+
+4. Attribute-Based Access Control (ABAC)
+Access is based on attributes (user, resource, environment).
+
+🧠 Example:
+Allow access only if user is in HR department and time is between 9 AM–5 PM.
+
+📌 Key Features:
+
+Fine-grained
+
+Based on policies using multiple attributes
+
+Flexible but complex
+
+✅ MCQ Hint: “Access based on multiple attributes like location, time” → ABAC
+
+🧠 Summary Table
+| Model | Controlled By     | Example           | Use Case               |
+| ----- | ----------------- | ----------------- | ---------------------- |
+| DAC   | Owner             | chmod in Linux    | Personal files         |
+| MAC   | System/Policy     | Military files    | Government/military    |
+| RBAC  | Role              | Manager access    | Corporates, Banks      |
+| ABAC  | Policy/Attributes | HR + 9AM-5PM rule | Cloud, Enterprise apps |
+
+🧠 Sample MCQs
+Which access control model allows users to define access?
+➤ DAC
+
+Which model uses security labels like Confidential?
+➤ MAC
+
+RBAC is based on which of the following?
+➤ User roles
+
+Which access model is the most fine-grained and policy-based?
+➤ ABAC
+
+In which model can a file owner assign permissions to others?
+➤ DAC
