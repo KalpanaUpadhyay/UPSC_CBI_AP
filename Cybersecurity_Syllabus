@@ -363,3 +363,82 @@ d) Facial recognition
 
 What is a token in security?
 ➤ Answer: A string used to represent access rights or session info
+
+
+ **Malware**   
+
+
+🦠 What is Malware?
+Malware (short for malicious software) is software designed to harm, disrupt, or gain unauthorized access to systems or data.
+
+📚 Common Types of Malware
+Malware Type	Description	Key Behavior
+Virus	Attaches to clean files/programs and spreads when executed.	Needs human action to spread
+Worm	Self-replicates and spreads through networks.	Spreads automatically
+Trojan Horse	Disguised as legitimate software but contains malicious code.	Trick-based infection
+Ransomware	Encrypts files and demands ransom for decryption.	Extortion
+Spyware	Secretly gathers user data (e.g., keystrokes, passwords).	Surveillance
+Adware	Displays unwanted ads, often redirects browsers.	Spam or marketing
+Rootkit	Hides the presence of malware and allows privileged access.	Stealth-based
+Botnet	Group of infected computers controlled remotely (zombies).	Used for DDoS attacks
+
+📌 Detailed Examples
+🧫 1. Virus
+Spread: Through infected .exe files, USBs.
+
+Action: Corrupts or deletes data, crashes system.
+
+Needs: User to run the file.
+
+🪱 2. Worm
+Spread: Via networks, email attachments.
+
+Action: Eats up bandwidth, crashes servers.
+
+🐎 3. Trojan Horse
+Example: Fake antivirus software that installs a keylogger.
+
+Does not self-replicate.
+
+🔐 4. Ransomware
+Example: WannaCry, Petya
+
+Encrypts data and shows a ransom note (e.g., “Pay 0.5 BTC to unlock your files”)
+
+🕵️‍♂️ 5. Spyware
+Example: Keyloggers
+
+Sends credentials to hackers.
+
+🧠 How Malware Spreads
+Email attachments
+
+Infected USB drives
+
+Fake software/downloads
+
+Malicious websites or pop-ups
+
+Software vulnerabilities
+
+🧯 Basic Protection Measures
+Method	Description
+Antivirus/Antimalware	Detects and removes known malware
+Firewalls	Blocks unauthorized connections
+Software Updates	Fix known vulnerabilities
+User Awareness	Avoid suspicious emails/downloads
+
+🧠 Sample MCQs
+Which malware disguises itself as a legitimate program?
+➤ Answer: Trojan Horse
+
+Which malware encrypts data and demands payment?
+➤ Answer: Ransomware
+
+What is a key difference between a virus and a worm?
+➤ Answer: Worms spread without user action; viruses need execution.
+
+Which malware type monitors and sends user activity secretly?
+➤ Answer: Spyware
+
+
