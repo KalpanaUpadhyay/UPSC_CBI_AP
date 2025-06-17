@@ -168,3 +168,105 @@ d) Compressing files
 
 What’s the key difference between symmetric and asymmetric encryption?
 ➤ Symmetric uses one shared key, asymmetric uses a key pair (public + private).
+
+
+
+**Network Security**       
+
+🔐 1. Firewalls
+🔸 What is it?
+A firewall is a security system (hardware or software) that monitors and controls incoming and outgoing network traffic based on predetermined rules.
+
+🔸 Key Points:
+Acts as a barrier between trusted (internal) and untrusted (external) networks.
+
+Filters traffic based on IP, port, protocol.
+
+Can block unauthorized access.
+
+🔥 Types:
+Packet-filtering Firewall (checks IPs and ports)
+
+Stateful Firewall (tracks active connections)
+
+Application-layer Firewall (e.g., proxy firewalls)
+
+🧠 Example:
+A firewall blocks port 21 to prevent FTP traffic from untrusted sources.
+
+🕵️‍♀️ 2. IDS / IPS
+🔸 IDS (Intrusion Detection System)
+A tool that monitors network traffic and raises alerts when suspicious activity is detected.
+
+Passive – detects and alerts only.
+
+Example: Snort, OSSEC
+
+🔸 IPS (Intrusion Prevention System)
+Like IDS, but actively blocks or stops malicious activity.
+
+Active – detects + takes action (drops packet, resets connection).
+
+✅ IDS vs IPS:
+Feature	IDS	IPS
+Role	Detect	Detect + Prevent
+Placement	After firewall	Inline (real-time)
+Response	Alerts only	Blocks traffic
+
+🌐 3. VPN (Virtual Private Network)
+🔸 What is it?
+A VPN encrypts your internet traffic and routes it through a remote server, creating a secure "tunnel".
+
+🔸 Use Cases:
+Secure remote access
+
+Bypassing geo-restrictions
+
+Protect data on public Wi-Fi
+
+🔐 Protocols Used:
+PPTP, L2TP, OpenVPN, IPsec
+
+Example: Bank employees use VPN to securely connect to internal systems from home.
+
+🧭 4. Proxy Server
+🔸 What is it?
+A proxy server acts as an intermediary between the user and the internet.
+
+🔸 Functions:
+Hide IP address (anonymity)
+
+Content filtering
+
+Cache websites for faster access
+
+Often used in schools/offices to control access
+
+Example: A proxy can block access to social media websites in a corporate environment.
+
+🔁 Summary Table
+Tool	Function	Passive/Active	Example
+Firewall	Blocks or allows traffic	Active	iptables, UFW
+IDS	Detects suspicious activity	Passive	Snort
+IPS	Detects + blocks activity	Active	Suricata
+VPN	Encrypts traffic for secure remote access	Active	OpenVPN
+Proxy	Intermediary, filters content	Passive/Active	Squid Proxy
+
+🧠 Sample MCQs
+Which tool only detects intrusions but does not block them?
+➤ Answer: IDS
+
+What is the primary role of a firewall?
+a) Encrypt data
+b) Prevent malware
+c) Filter network traffic
+d) Store data
+➤ Answer: c) Filter network traffic
+
+A VPN primarily provides:
+➤ Answer: Secure remote access
+
+Which tool can help anonymize your internet activity?
+➤ Answer: Proxy Server
+
+
