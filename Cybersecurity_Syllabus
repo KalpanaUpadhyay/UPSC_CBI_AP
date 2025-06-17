@@ -9,3 +9,94 @@
 | **Web Security**                   | HTTPS, SSL/TLS, Cookies, CSRF, XSS                    |
 | **Cyber Laws & Compliance**        | IT Act 2000 (India), GDPR basics, CERT-In             |
 | **Access Control Models**          | MAC, DAC, RBAC                                        |
+
+
+**Basic Terminology**     
+🧠 Core Concepts
+1. Threat
+A potential cause of an unwanted incident that may result in harm to a system or organization.
+
+🔸 It’s the "what could go wrong."
+
+🔐 Examples:
+
+A hacker trying to access sensitive data.
+
+Natural disasters like floods affecting a data center.
+
+Insider trying to leak confidential files.
+
+2. Vulnerability
+A weakness or flaw in a system that can be exploited by a threat.
+
+🔸 It’s the "loophole or gap" in your defense.
+
+🔐 Examples:
+
+Unpatched software
+
+Weak passwords
+
+Open ports with no firewall
+
+3. Risk
+The likelihood that a threat will exploit a vulnerability and cause harm.
+
+🔸 Risk = Threat × Vulnerability × Impact
+
+🔐 Example:
+
+If a server has an outdated OS (vulnerability) and hackers are scanning the internet (threat), then there’s a high risk of an attack.
+
+4. Exploit
+A tool, script, or technique used to take advantage of a vulnerability.
+
+🔸 It’s the "weapon" used in an attack.
+
+🔐 Examples:
+
+SQL injection script
+
+Buffer overflow code
+
+Malware exploiting zero-day vulnerabilities
+
+5. Attack Vector
+The path or means by which a threat actor gains access to a system.
+
+🔸 It’s the "entry door" into the system.
+
+🔐 Examples:
+
+Phishing email (email is the vector)
+
+Malicious USB drive
+
+A fake login page (web interface vector)
+
+🧪 Real-Life Example
+Imagine your system has weak login passwords.
+
+🔸 Threat = A hacker wants to break in.
+
+🔸 Vulnerability = Weak password.
+
+🔸 Exploit = Brute-force tool used to guess the password.
+
+🔸 Attack Vector = Login page on the website.
+
+🔸 Risk = High, because the system can be compromised easily.
+
+📌 Quick MCQ Practice
+What term best describes a flaw in software that can be used to gain unauthorized access?
+a) Threat
+b) Risk
+c) Vulnerability
+d) Patch
+➤ Answer: c) Vulnerability
+
+Which one is considered an entry point for cyber attacks?
+➤ Answer: Attack Vector
+
+Which of the following refers to the combination of a threat exploiting a vulnerability?
+➤ Answer: Risk
