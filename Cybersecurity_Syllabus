@@ -568,3 +568,151 @@ In which attack does an attacker intercept communication between two parties?
 | Brute Force   | Passwords     | Repeated attempts | Lockouts, CAPTCHAs                    |
 | Zero-Day      | Software      | Unknown flaw      | Updates, threat monitoring            |
 | XSS           | Browsers      | Script Injection  | Input sanitization                    |
+
+
+** Web Security **
+
+🌐 What is Web Security?
+Web Security involves protecting websites, web applications, and web services from cyber attacks and unauthorized access.
+
+These protections help safeguard:
+
+Sensitive user data (passwords, credit card info)
+
+Website functionality (login, search, forms)
+
+Backend systems (database, APIs)
+
+🛡️ Key Threats in Web Security
+Let’s break down the most common web-based vulnerabilities and how to prevent them:
+
+1. SQL Injection (SQLi)
+Injecting malicious SQL queries into input fields to manipulate a database.
+
+🧠 Example:
+
+Input: ' OR 1=1 --
+➤ This bypasses login verification.
+
+✅ Protection:
+
+Use prepared statements (parameterized queries)
+
+Input validation and sanitization
+
+2. Cross-Site Scripting (XSS)
+Attacker injects malicious JavaScript into a webpage to run in users' browsers.
+
+🧠 Example:
+
+html
+Copy
+Edit
+<script>alert('hacked')</script>
+✅ Protection:
+
+Escape user input before rendering on page
+
+Use Content Security Policy (CSP)
+
+3. Cross-Site Request Forgery (CSRF)
+Forces a logged-in user to unknowingly send malicious requests (e.g., bank transfer).
+
+🧠 Example:
+Attacker sends a link like:
+
+arduino
+Copy
+Edit
+http://bank.com/transfer?amount=50000&to=attacker
+When clicked by a logged-in user, it executes.
+
+✅ Protection:
+
+Use CSRF tokens
+
+Validate origin headers
+
+4. Broken Authentication
+Poor session management or predictable login flows allow attackers to hijack user sessions.
+
+✅ Protection:
+
+Implement multi-factor authentication (2FA)
+
+Use secure, time-bound session tokens
+
+Use HTTPS
+
+5. Security Misconfiguration
+Incorrect settings in servers, databases, or apps can expose sensitive data.
+
+🧠 Example:
+
+Default admin passwords
+
+Directory listing enabled
+
+Debug mode ON
+
+✅ Protection:
+
+Disable unnecessary features
+
+Regular security audits
+
+Patch software
+
+6. Insecure Direct Object Reference (IDOR)
+Users can access others’ data by modifying parameters in the URL.
+
+🧠 Example:
+
+bash
+Copy
+Edit
+https://bank.com/user?id=101
+Changing to id=102 shows someone else’s info.
+
+✅ Protection:
+
+Enforce access controls on server side
+
+Use indirect references or tokens
+
+✅ OWASP Top 10 (Web Security Bible)
+OWASP (Open Web Application Security Project) lists top 10 most critical web application risks:
+
+Broken Access Control
+
+Cryptographic Failures
+
+Injection (SQLi, XSS)
+
+Insecure Design
+
+Security Misconfiguration
+
+Vulnerable Components
+
+Identification & Auth Failures
+
+Software/Data Integrity Failures
+
+Logging/Monitoring Failures
+
+SSRF (Server-Side Request Forgery)
+
+🧠 Sample MCQs
+What does XSS stand for?
+➤ Cross-Site Scripting
+
+Which attack tricks the user into performing unintended actions on a website?
+➤ CSRF
+
+Which is a solution for SQL injection?
+➤ Prepared Statements
+
+What is OWASP?
+➤ An organization that publishes web security best practices.
+
