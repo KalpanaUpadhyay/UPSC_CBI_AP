@@ -1,0 +1,105 @@
+☁️ What is Cloud Computing?
+Cloud computing is delivering computing services (like servers, storage, databases, networking, software) over the internet ("the cloud") to offer faster innovation, flexible resources, and economies of scale.
+
+☁️ 1. Characteristics of Cloud Computing
+Feature	Description
+On-demand self-service	Users can access resources as needed
+Broad network access	Available over the internet via multiple devices
+Resource pooling	Shared infrastructure across multiple users
+Rapid elasticity	Scale up/down resources instantly
+Measured service	Pay-per-use (metered billing)
+
+✅ MCQ Tip: These 5 are the NIST characteristics often asked in exams.
+
+☁️ 2. Cloud Service Models
+🔹 a. IaaS (Infrastructure as a Service)
+Provides virtualized hardware resources over the internet.
+
+🧠 Example: Amazon EC2, Microsoft Azure VM
+
+You manage: OS, apps, middleware.
+Provider manages: servers, storage, networking.
+
+🔹 b. PaaS (Platform as a Service)
+Provides a platform to develop, run, and manage apps.
+
+🧠 Example: Google App Engine, Heroku
+
+You manage: Applications.
+Provider manages: OS, runtime, hardware.
+
+🔹 c. SaaS (Software as a Service)
+Provides fully functional software over the internet.
+
+🧠 Example: Google Workspace, Salesforce, Office 365
+
+You just use it — no setup or infrastructure.
+
+✅ MCQ Tip:
+
+Gmail? ➝ SaaS
+
+AWS EC2? ➝ IaaS
+
+App development platform? ➝ PaaS
+
+☁️ 3. Cloud Deployment Models
+| Model               | Description                             | Example                                |
+| ------------------- | --------------------------------------- | -------------------------------------- |
+| **Public Cloud**    | Owned by cloud provider, used by public | AWS, Azure                             |
+| **Private Cloud**   | Used by one organization only           | Government/private bank cloud          |
+| **Hybrid Cloud**    | Mix of public + private                 | Sensitive data on private, rest public |
+| **Community Cloud** | Shared by similar orgs                  | Shared hospital cloud                  |
+
+☁️ 4. Virtualization in Cloud
+Virtualization enables multiple virtual machines to run on a single physical machine.
+
+🧠 Uses:
+
+Better hardware utilization
+
+Isolated environments
+
+Key enabler of cloud infrastructure
+
+✅ Hypervisors:
+
+Type 1: Bare metal (VMware ESXi, Hyper-V)
+
+Type 2: Hosted on OS (VirtualBox)
+
+☁️ 5. Benefits of Cloud Computing
+Cost-effective (no hardware purchase)
+
+Scalable & flexible
+
+Easy backup & recovery
+
+Better collaboration
+
+Automatic updates
+
+🔒 6. Cloud Security Concepts
+| Term                 | Description                                   |
+| -------------------- | --------------------------------------------- |
+| **Data encryption**  | Protects data at rest & in transit            |
+| **IAM**              | Identity & Access Management                  |
+| **Multi-tenancy**    | Multiple customers share same infra securely  |
+| **DDoS Protection**  | Mitigates denial-of-service attacks           |
+| **Cloud Compliance** | Following standards like GDPR, ISO, RBI norms |
+
+🧠 Sample MCQs
+Which cloud model gives full software to users over the internet?
+➤ SaaS
+
+Which is a characteristic of cloud computing?
+➤ On-demand self-service
+
+Amazon EC2 is an example of?
+➤ IaaS
+
+What does virtualization allow?
+➤ Multiple virtual OS on one physical machine
+
+What does hybrid cloud mean?
+➤ Mix of public and private cloud environments
