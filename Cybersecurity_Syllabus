@@ -270,3 +270,96 @@ Which tool can help anonymize your internet activity?
 ➤ Answer: Proxy Server
 
 
+
+ **Authentication & Authorization** 
+🔐 2FA, OAuth, Biometrics, Tokens – Explained
+These terms are all related to user identification and access control:
+
+✅ 1. 2FA (Two-Factor Authentication)
+A security process in which two different types of credentials are required to verify a user’s identity.
+
+🧱 Example:
+You enter your password (something you know)
+
+You get an OTP on mobile (something you have)
+
+✅ Adds an extra layer of security beyond just a password.
+
+🔐 Types of Factors:
+Factor Type	Example
+Something you know	Password, PIN
+Something you have	OTP, Smart card
+Something you are	Fingerprint, Face ID
+
+✅ 2. OAuth (Open Authorization)
+A token-based authorization framework that lets third-party apps access your data without sharing your password.
+
+🧱 Example:
+You click "Login with Google" on a third-party website.
+
+That site uses OAuth to request limited access to your Google account (like email).
+
+✅ You don’t give your password to the third party.
+✅ Scopes restrict what the app can do (read-only, read-write, etc.).
+
+✅ 3. Biometrics
+Uses unique biological traits for identification or access.
+
+🔐 Common Biometrics:
+Fingerprint
+
+Face recognition
+
+Iris scan
+
+Voice recognition
+
+✅ Pros:
+Hard to fake
+
+Convenient
+
+❌ Cons:
+Privacy concerns
+
+Can’t be changed if leaked (unlike passwords)
+
+✅ 4. Tokens
+A randomly generated string used to authenticate or authorize a user/session.
+
+🧱 Types of Tokens:
+Token Type	Usage Example
+Session Token	After login, used in cookies
+API Token	Used for REST API access
+Access Token (OAuth)	Grants access to user data
+Hardware Token	Physical device generating OTPs
+
+Example: A token sent to your email after login to verify your identity.
+
+🔁 Summary Table
+Term	Category	Purpose	Example
+2FA	Authentication	Identity verification	OTP + Password
+OAuth	Authorization	Allow app to access your account	Login with Facebook
+Biometrics	Authentication	Physical identity check	Fingerprint scanner
+Tokens	Authentication/Authorization	Provide access/session	Bearer token, OTP
+
+🧠 Sample MCQs
+Which of the following is a two-factor authentication method?
+a) Password
+b) OTP
+c) Password + OTP
+d) Username
+➤ Answer: c) Password + OTP
+
+OAuth is mainly used for:
+➤ Answer: Authorization
+
+Which of these is not a biometric method?
+a) Retina scan
+b) Fingerprint
+c) OTP
+d) Facial recognition
+➤ Answer: c) OTP
+
+What is a token in security?
+➤ Answer: A string used to represent access rights or session info
