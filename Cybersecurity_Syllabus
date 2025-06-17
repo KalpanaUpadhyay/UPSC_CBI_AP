@@ -1,0 +1,11 @@
+| Topic                              | What to Focus On                                      |
+| ---------------------------------- | ----------------------------------------------------- |
+| **Basic Terminology**              | Threat, Vulnerability, Risk, Exploit, Attack vector   |
+| **Encryption & Cryptography**      | Symmetric vs Asymmetric, RSA, AES, Hashing (MD5, SHA) |
+| **Network Security**               | Firewalls, IDS/IPS, VPN, Proxy Servers                |
+| **Authentication & Authorization** | 2FA, OAuth, Biometrics, Tokens                        |
+| **Malware**                        | Viruses, Worms, Trojans, Ransomware, Rootkits         |
+| **Cyber Attacks**                  | Phishing, DDoS, SQL Injection, Man-in-the-Middle      |
+| **Web Security**                   | HTTPS, SSL/TLS, Cookies, CSRF, XSS                    |
+| **Cyber Laws & Compliance**        | IT Act 2000 (India), GDPR basics, CERT-In             |
+| **Access Control Models**          | MAC, DAC, RBAC                                        |
