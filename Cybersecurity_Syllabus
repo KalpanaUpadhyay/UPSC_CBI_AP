@@ -245,12 +245,14 @@ Often used in schools/offices to control access
 Example: A proxy can block access to social media websites in a corporate environment.
 
 🔁 Summary Table
-Tool	Function	Passive/Active	Example
-Firewall	Blocks or allows traffic	Active	iptables, UFW
-IDS	Detects suspicious activity	Passive	Snort
-IPS	Detects + blocks activity	Active	Suricata
-VPN	Encrypts traffic for secure remote access	Active	OpenVPN
-Proxy	Intermediary, filters content	Passive/Active	Squid Proxy
+| Tool         | Function                                  | Passive/Active | Example       |
+| ------------ | ----------------------------------------- | -------------- | ------------- |
+| **Firewall** | Blocks or allows traffic                  | Active         | iptables, UFW |
+| **IDS**      | Detects suspicious activity               | Passive        | Snort         |
+| **IPS**      | Detects + blocks activity                 | Active         | Suricata      |
+| **VPN**      | Encrypts traffic for secure remote access | Active         | OpenVPN       |
+| **Proxy**    | Intermediary, filters content             | Passive/Active | Squid Proxy   |
+
 
 🧠 Sample MCQs
 Which tool only detects intrusions but does not block them?
@@ -337,11 +339,13 @@ Hardware Token	Physical device generating OTPs
 Example: A token sent to your email after login to verify your identity.
 
 🔁 Summary Table
-Term	Category	Purpose	Example
-2FA	Authentication	Identity verification	OTP + Password
-OAuth	Authorization	Allow app to access your account	Login with Facebook
-Biometrics	Authentication	Physical identity check	Fingerprint scanner
-Tokens	Authentication/Authorization	Provide access/session	Bearer token, OTP
+| Term       | Category                     | Purpose                          | Example             |
+| ---------- | ---------------------------- | -------------------------------- | ------------------- |
+| 2FA        | Authentication               | Identity verification            | OTP + Password      |
+| OAuth      | Authorization                | Allow app to access your account | Login with Facebook |
+| Biometrics | Authentication               | Physical identity check          | Fingerprint scanner |
+| Tokens     | Authentication/Authorization | Provide access/session           | Bearer token, OTP   |
+
 
 🧠 Sample MCQs
 Which of the following is a two-factor authentication method?
@@ -372,15 +376,17 @@ What is a token in security?
 Malware (short for malicious software) is software designed to harm, disrupt, or gain unauthorized access to systems or data.
 
 📚 Common Types of Malware
-Malware Type	Description	Key Behavior
-Virus	Attaches to clean files/programs and spreads when executed.	Needs human action to spread
-Worm	Self-replicates and spreads through networks.	Spreads automatically
-Trojan Horse	Disguised as legitimate software but contains malicious code.	Trick-based infection
-Ransomware	Encrypts files and demands ransom for decryption.	Extortion
-Spyware	Secretly gathers user data (e.g., keystrokes, passwords).	Surveillance
-Adware	Displays unwanted ads, often redirects browsers.	Spam or marketing
-Rootkit	Hides the presence of malware and allows privileged access.	Stealth-based
-Botnet	Group of infected computers controlled remotely (zombies).	Used for DDoS attacks
+| Malware Type     | Description                                                   | Key Behavior                 |
+| ---------------- | ------------------------------------------------------------- | ---------------------------- |
+| **Virus**        | Attaches to clean files/programs and spreads when executed.   | Needs human action to spread |
+| **Worm**         | Self-replicates and spreads through networks.                 | Spreads automatically        |
+| **Trojan Horse** | Disguised as legitimate software but contains malicious code. | Trick-based infection        |
+| **Ransomware**   | Encrypts files and demands ransom for decryption.             | Extortion                    |
+| **Spyware**      | Secretly gathers user data (e.g., keystrokes, passwords).     | Surveillance                 |
+| **Adware**       | Displays unwanted ads, often redirects browsers.              | Spam or marketing            |
+| **Rootkit**      | Hides the presence of malware and allows privileged access.   | Stealth-based                |
+| **Botnet**       | Group of infected computers controlled remotely (zombies).    | Used for DDoS attacks        |
+
 
 📌 Detailed Examples
 🧫 1. Virus
@@ -422,11 +428,13 @@ Malicious websites or pop-ups
 Software vulnerabilities
 
 🧯 Basic Protection Measures
-Method	Description
-Antivirus/Antimalware	Detects and removes known malware
-Firewalls	Blocks unauthorized connections
-Software Updates	Fix known vulnerabilities
-User Awareness	Avoid suspicious emails/downloads
+| Method                | Description                       |
+| --------------------- | --------------------------------- |
+| Antivirus/Antimalware | Detects and removes known malware |
+| Firewalls             | Blocks unauthorized connections   |
+| Software Updates      | Fix known vulnerabilities         |
+| User Awareness        | Avoid suspicious emails/downloads |
+
 
 🧠 Sample MCQs
 Which malware disguises itself as a legitimate program?
@@ -442,3 +450,121 @@ Which malware type monitors and sends user activity secretly?
 ➤ Answer: Spyware
 
 
+
+**Cyber Attacks**
+
+💣 What is a Cyber Attack?
+A cyber attack is any attempt to steal, expose, alter, disable, or destroy information through unauthorized access to computer systems or networks.
+
+🚨 Major Types of Cyber Attacks
+Let’s go over the most important and exam-relevant ones:
+
+1. Phishing
+Trick user into revealing sensitive data (passwords, OTPs, etc.) through fake emails or websites.
+
+🧠 Example:
+You get an email that looks like it's from a bank asking for your login credentials.
+
+🔐 Protection:
+
+Don't click on suspicious links.
+
+Check sender email authenticity.
+
+Use spam filters.
+
+2. DDoS (Distributed Denial of Service)
+Overloads a server/system with huge traffic from multiple sources to make it unavailable.
+
+🧠 Example:
+A government website is made inaccessible by millions of fake requests per second.
+
+🔐 Protection:
+
+Use rate limiting.
+
+Anti-DDoS services (like Cloudflare).
+
+Load balancers.
+
+3. MITM (Man-in-the-Middle) Attack
+The attacker secretly intercepts and possibly alters communication between two parties.
+
+🧠 Example:
+You're on public Wi-Fi, and an attacker reads your data as it passes through an insecure connection.
+
+🔐 Protection:
+
+Use HTTPS.
+
+Avoid public Wi-Fi without VPN.
+
+Use SSL certificates.
+
+4. SQL Injection
+Attacker inserts malicious SQL queries into a vulnerable form input to access or modify database data.
+
+🧠 Example:
+An attacker enters ' OR 1=1 -- into a login form to bypass authentication.
+
+🔐 Protection:
+
+Use prepared statements or ORMs.
+
+Validate input fields.
+
+5. Brute Force Attack
+Repeatedly trying all possible combinations to guess a password or key.
+
+🔐 Protection:
+
+Use strong, complex passwords.
+
+Lock account after failed attempts.
+
+CAPTCHA.
+
+6. Zero-Day Attack
+Exploits a vulnerability that is not yet known or patched by the software vendor.
+
+🔐 Protection:
+
+Keep software updated.
+
+Use threat intelligence and behavior monitoring.
+
+7. Cross-Site Scripting (XSS)
+Attacker injects malicious scripts into web pages viewed by other users.
+
+🧠 Example:
+An attacker injects <script>alert('hacked')</script> into a comment box.
+
+🔐 Protection:
+
+Sanitize input.
+
+Encode output.
+
+🧠 Sample MCQs
+Which of the following is a form of social engineering?
+➤ Answer: Phishing
+
+What kind of attack involves flooding a server with traffic to crash it?
+➤ Answer: DDoS
+
+Which attack targets database vulnerabilities?
+➤ Answer: SQL Injection
+
+In which attack does an attacker intercept communication between two parties?
+➤ Answer: MITM (Man-in-the-Middle)
+
+📝 Summary Table
+| Attack Type   | Target        | Nature            | Prevention                            |
+| ------------- | ------------- | ----------------- | ------------------------------------- |
+| Phishing      | Users         | Deceptive         | Awareness, email filters              |
+| DDoS          | Servers       | Overload          | Firewalls, load balancers             |
+| MITM          | Communication | Interception      | HTTPS, VPNs                           |
+| SQL Injection | Database      | Code Injection    | Input validation, prepared statements |
+| Brute Force   | Passwords     | Repeated attempts | Lockouts, CAPTCHAs                    |
+| Zero-Day      | Software      | Unknown flaw      | Updates, threat monitoring            |
+| XSS           | Browsers      | Script Injection  | Input sanitization                    |
