@@ -843,3 +843,91 @@ Which attack tricks users into unknowingly sending requests?
 
 What is the solution to prevent XSS?
 ➤ Input sanitization and encoding
+
+**Cyber Laws & Compliance**  
+
+Cyber laws are rules, regulations, and legal measures that deal with crimes involving computers, networks, software, and the internet.
+
+They cover:
+
+Data Protection
+
+Hacking
+
+Online Fraud
+
+Cyberstalking
+
+Digital Signatures
+
+Software Piracy
+
+📜 Important Cyber Laws in India
+1. IT Act, 2000 (Information Technology Act)
+India’s primary law dealing with:
+
+Electronic governance
+
+Cybercrime
+
+Digital signatures
+
+Data privacy
+
+🔹 Major Sections:
+| Section     | Provision                                                 |
+| ----------- | --------------------------------------------------------- |
+| **Sec 43**  | Penalty for unauthorized access (hacking, damage to data) |
+| **Sec 66**  | Computer-related offenses (punishment for hacking)        |
+| **Sec 66C** | Identity theft                                            |
+| **Sec 66D** | Cheating by impersonation (phishing, fake websites)       |
+| **Sec 67**  | Publishing obscene material                               |
+| **Sec 69**  | Govt. power to intercept/decrypt information              |
+| **Sec 72**  | Breach of confidentiality by authorized persons           |
+
+
+📋 Cyber Law Terminology
+| Term                     | Description                                                                        |
+| ------------------------ | ---------------------------------------------------------------------------------- |
+| **Digital Signature**    | Used for authentication in electronic records                                      |
+| **Electronic Record**    | Data stored electronically                                                         |
+| **Adjudicating Officer** | Investigates and penalizes violations under IT Act                                 |
+| **CERT-IN**              | Indian Computer Emergency Response Team (national nodal agency for cyber security) |
+
+
+🌍 Global Cybersecurity Laws & Standards
+| Law / Framework | Purpose                                             |
+| --------------- | --------------------------------------------------- |
+| **GDPR (EU)**   | Protects personal data of EU citizens               |
+| **HIPAA (USA)** | Secures health data                                 |
+| **ISO 27001**   | Global standard for Information Security Management |
+| **PCI-DSS**     | Standard for securing card transactions             |
+| **NIST (USA)**  | Cybersecurity framework for risk management         |
+
+
+✅ Compliance Concepts
+Compliance means following the legal and regulatory requirements regarding data privacy and cybersecurity.
+
+| Term                | Meaning                                           |
+| ------------------- | ------------------------------------------------- |
+| **Data Protection** | Ensuring user data is stored & used securely      |
+| **Privacy Policy**  | Document that explains how data is collected/used |
+| **Audit Trail**     | Logs to trace actions on a system                 |
+| **Cyber Insurance** | Covers financial losses due to cyber incidents    |
+
+
+🧠 Sample MCQs
+Which section of the IT Act covers hacking offenses?
+➤ Section 66
+
+CERT-IN is responsible for?
+➤ Handling cyber incidents in India
+
+Which international law governs EU data privacy?
+➤ GDPR
+
+What does PCI-DSS focus on?
+➤ Secure handling of card transactions
+
+Section 66D of the IT Act deals with?
+➤ Cheating by impersonation (e.g., phishing)
