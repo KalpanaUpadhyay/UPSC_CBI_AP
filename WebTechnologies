@@ -1,0 +1,240 @@
+
+
+---
+
+📘 Web Technologies – Union Bank Assistant Manager Notes
+
+
+---
+
+1. Introduction to Web Technologies
+
+Web: A collection of websites or web pages accessible through the Internet.
+
+WWW (World Wide Web): A system of interlinked hypertext documents accessed via browsers.
+
+HTTP (HyperText Transfer Protocol): Protocol used to transfer web pages on the internet.
+
+URL (Uniform Resource Locator): The address of a web resource.
+
+
+
+---
+
+2. Web Architecture
+
+Client-Server Model: Browser (Client) sends requests to the Server (which sends back responses).
+
+Web Server: Hosts the website (e.g., Apache, Nginx, IIS).
+
+Application Server: Executes application logic (e.g., Node.js, Tomcat).
+
+Database Server: Stores and manages data (e.g., MySQL, Oracle DB).
+
+
+
+---
+
+3. HTML (HyperText Markup Language)
+
+Structure of a webpage.
+
+Basic tags: <html>, <head>, <title>, <body>, <p>, <a>, <img>, <table>, <form>, etc.
+
+HTML5 adds: <video>, <audio>, <section>, <article>, <nav>, etc.
+
+
+
+---
+
+4. CSS (Cascading Style Sheets)
+
+Used for styling HTML content.
+
+Types: Inline, Internal, External.
+
+Selectors: Class (.class), ID (#id), Element.
+
+CSS3 Features: Transitions, Animations, Flexbox, Grid Layout.
+
+
+
+---
+
+5. JavaScript (JS)
+
+Client-side scripting language for dynamic content.
+
+Common uses: Form validation, DOM manipulation, AJAX.
+
+Basic concepts: Variables, Data types, Functions, Events (onclick, onload), Loops, Conditions.
+
+
+
+---
+
+6. DOM (Document Object Model)
+
+Represents the structure of HTML as a tree.
+
+JS uses DOM to access and modify elements.
+
+
+
+---
+
+7. AJAX (Asynchronous JavaScript and XML)
+
+Allows updating parts of a web page without reloading.
+
+Uses: XMLHttpRequest or fetch() API.
+
+
+
+---
+
+8. Web Browsers
+
+Examples: Chrome, Firefox, Safari, Edge.
+
+Render HTML, CSS, and JS to display web pages.
+
+
+
+---
+
+9. Web Hosting and Domain
+
+Domain Name: Human-readable address of a website (e.g., www.bank.com).
+
+Hosting: Renting server space for a website.
+
+
+
+---
+
+10. Client-side vs Server-side Scripting
+
+Feature	Client-side	Server-side
+
+Executes on	User’s browser	Web server
+Languages	JavaScript	PHP, Python, Java, ASP
+Access	Cannot access DB	Can access DB
+Speed	Fast	Slower
+
+
+
+---
+
+11. Web Protocols
+
+HTTP/HTTPS: Protocols for web communication (HTTPS is secure).
+
+FTP: File Transfer Protocol.
+
+TCP/IP: Underlying protocol suite of the internet.
+
+
+
+---
+
+12. Responsive Web Design
+
+Adapts layout to screen size (mobile/tablet/desktop).
+
+Tools: Media Queries, Bootstrap.
+
+
+
+---
+
+13. Frameworks and Libraries
+
+Frontend: React, Angular, Vue.js
+
+Backend: Node.js, Django, Spring
+
+CSS Frameworks: Bootstrap, Tailwind
+
+
+
+---
+
+14. Cookies, Sessions, and Local Storage
+
+Cookies: Small data stored in browser.
+
+Session: Server-side storage for user-specific data.
+
+Local Storage: HTML5 feature to store data in browser.
+
+
+
+---
+
+15. Security in Web
+
+XSS (Cross-Site Scripting)
+
+SQL Injection
+
+CSRF (Cross-Site Request Forgery)
+
+HTTPS for secure data transfer.
+
+
+
+---
+
+16. Web Services
+
+Enable communication between applications.
+
+SOAP (XML-based), REST (HTTP-based, uses JSON/XML).
+
+
+
+---
+
+📝 Practice MCQs (Sample)
+
+1. Which tag is used to create a hyperlink in HTML?
+
+a) <link>
+
+b) <a> ✅
+
+c) <href>
+
+d) <hyper>
+
+
+
+2. Which protocol is used for secure web communication?
+
+a) HTTP
+
+b) FTP
+
+c) HTTPS ✅
+
+d) SMTP
+
+
+
+3. AJAX stands for:
+
+a) Asynchronous Java Application for XML
+
+b) Asynchronous JavaScript and XML ✅
+
+c) Advanced Java and XML
+
+d) Auto Java and XML
+
+
+
+
+
+---
+
